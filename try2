@@ -138,7 +138,6 @@ plt.ylabel("loss/accuracy")
 plt.legend(loc="lower left")
 plt.show()
 
-# test setinin etiketleri
 test_paths = list(paths.list_images(test_path))
 testlabels = [int(p.split(os.path.sep)[-2]) for p in test_paths]
 testlabels = to_categorical(testlabels)
