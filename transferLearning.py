@@ -9,7 +9,7 @@ from matplotlib import pyplot
 from sklearn.metrics import classification_report
 batch_size= 32
 image_shape = (224, 224)
-dst_dir = 'C:\\Users\\ASUS\\Desktop\\sabahTepsiAksamTepsiSiniflandirma\\'
+dst_dir = '...\\morningTrayEveningTray\\'
 train_datagen = ImageDataGenerator(rescale=1./255,
                                    brightness_range = (0.5,1.5),
                                    rotation_range=10,
